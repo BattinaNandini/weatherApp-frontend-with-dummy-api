@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.homePageView {
+  height: 620px;
+  padding: 50px;
+  background-image: url(../assets/background_home.jpg);
+  background-size: cover;
+}
+
+.homePageComponent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.ForeCastComponent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+input {
+  display: inline;
+  vertical-align: bottom;
+  width: 30%;
+  height: 40px;
+  border-radius: 50px;
+  padding: 2px;
+}
+
+.weatherBox {
+  display: inline-block;
+  width: 450px;
+  height: 250px;
+  border: 1px solid #0e0101;
+  background-color:rgba(240, 248, 255, 0.446);
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.time {
+  display: inline-grid;
+  overflow: scroll;
+  height: 200px;
+  width: 1000px;
+  grid-auto-flow: column;
+  border: 1px solid #0e0101;
+  border-radius: 50px;
+  padding: 20px;
+  margin-left: 50px;
+}
+.hour {
+  width: 100px;
+  height: 180px;
+  border: 1px solid #0e0101;
+  padding: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+  background-color:rgba(240, 248, 255, 0.446);
+  border-radius: 50px;
+}
+.astro {
+  display: inline-block;
+  text-align: center;
+  width: 450px;
+  height: 240px;
+  border: 1px solid #0e0101;
+  background-color:rgba(240, 248, 255, 0.446);
+
+  margin-right: 20px;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+
+.week {
+  display: inline-grid;
+  overflow: scroll;
+  height: 200px;
+  width: 1000px;
+  grid-auto-flow: column;
+  border: 1px solid #0e0101;
+  border-radius: 50px;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.day {
+  display: inline-block;
+  width: 100px;
+  height: 180px;
+  border: 1px solid #0e0101;
+  vertical-align: middle;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 50px;
+  background-color:rgba(240, 248, 255, 0.446);
+
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 2px;
+  font-weight: bold;
+  color: #0e0101;
+
+}
+
+#img_{
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-color: white;
+}
+
+img{
+  display: inline;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-color: white;
+
+}
+
+#lightrain {
+  background-image: url(../assets/lightrain.jpeg);
+  background-size: cover;
+}
+
+#sunny {
+  background-image: url(../assets/sunny.jpeg);
+  background-size: cover;
+}
+
+#partlycloudy {
+  background-image: url(../assets/partlycloudy.jpeg);
+  background-size: cover;
+}
+
+#cloudy {
+  background-image: url(../assets/cloudy.jpeg);
+  background-size: cover;
+}
+
+#overcast {
+  background-image: url(../assets/overcast.jpeg);
+  background-size: cover;
+}
+
+#mist {
+  background-image: url(../assets/mist.jpeg);
+  background-size: cover;
+}
+
+#clear {
+  background-image: url(../assets/clear.jpeg);
+  background-size: cover;
+}
+
+#lightdrizzle{
+  background-image: url(../assets/lightDrizzle.webp);
+  background-size: cover;
+
+}
